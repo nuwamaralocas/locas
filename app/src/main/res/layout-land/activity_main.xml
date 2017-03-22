@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <fragment
+        android:layout_width="185dp"
+        android:layout_height="match_parent"
+        android:name="com.bonaparte.mum.bonaparte"
+        android:id="@+id/fragment2"
+        tools:layout="@layout/fragment_bonaparte"
+        android:layout_weight="0.61" />
+
+    <fragment
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:name="com.bonaparte.mum.locas"
+        android:id="@+id/fragment7"
+        tools:layout="@layout/fragment_locas"
+        android:layout_weight="0.30" />
+
+</LinearLayout>
